@@ -1,0 +1,17 @@
+
+
+.select-wrap {
+    .label {
+        display: block;
+        padding-bottom: 10px;
+    }
+   
+    .custom-option {
+        display: flex;
+    }   
+
+    :global .custom-select__indicator-separator{
+        display: none;
+    }
+}
+
